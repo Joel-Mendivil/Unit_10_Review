@@ -7,16 +7,27 @@
 
    Cinema Penguin Styles for Media
    Author: Joel Mendivil
-   Date:   
+   Date: 12/11/19
 
-   Filename: 
+   Filename: cp_media2.css
 
 */
 
 /* Media Styles */
-
-
-
-
+audio, video{
+   display: block;
+   width: 95%;
+   margin: 20px auto;
+}
 /* Track Styles */
-
+::cue{
+   background-color: transparent;
+   text-shadow: black 1px 1px 2px;
+   color: rgb(255,177,66);
+   font-size: 1.2em;
+   font-family: sans-serif;
+}
+::cue(.Title){
+   font-size: 2em;
+   font-family: serif;
+}
